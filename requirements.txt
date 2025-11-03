@@ -1,0 +1,16 @@
+# Core Deep Learning
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Numerical Computing
+numpy>=1.19.0
+
+# Visualization
+matplotlib>=3.3.0
+
+# Scientific Computing (for spline interpolation)
+scipy>=1.5.0
+
+# Image Processing
+Pillow>=8.0.0
+

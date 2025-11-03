@@ -157,16 +157,6 @@ This work is inspired by the joint training approach described in:
 > arXiv:2404.07956  
 > [Paper Link](https://arxiv.org/pdf/2404.07956)
 
-### Extension to Vision-Based Learning
-
-We extend the original method by:
-
-1. **Vision input**: Replacing state-based control with image-based control using a CNN
-2. **Image observations**: Controller learns from rendered camera views rather than ground-truth state  
-3. **End-to-end training**: Full pipeline from rendering → perception → control → dynamics
-
-The differentiable renderer (see [System Architecture](#system-architecture)) enables full gradient flow from pixels to control, making end-to-end learning possible.
-
 ### Training Procedure
 
 **Joint Training** (`lyapdag_trainer.py`):
